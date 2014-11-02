@@ -1,0 +1,14 @@
+{
+  "name": "smart-tab",
+  "description": "Utility for working with the extension tabs api",
+  "version": "0.3",
+  "permissions": ["tabs"],
+  "background": {
+    "persistent": false,
+    "page" : "./background.html"
+  },
+  "browser_action": {
+    "default_title": "show tab inspector"
+  },
+  "manifest_version": 2
+}
